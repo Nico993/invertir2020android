@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ic_launcher_background"
+    tools:context=".decisiones">
+
+    <Button
+        android:id="@+id/Siguiente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_flecha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/atrasbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/flechaatras"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Siguiente"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/atrasbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ic_launcher_background"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pedbanco1txt"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/pedir_banco1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/pedirbanco1number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pedirbanco2txt"
+                    android:layout_width="116dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/pedir_banco2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/pedirbanco2number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background">
+
+                <TextView
+                    android:id="@+id/preciotxt"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/precio"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/precio1check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/precio1" />
+
+                    <CheckBox
+                        android:id="@+id/precio2check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/precio2" />
+
+                    <CheckBox
+                        android:id="@+id/precio3check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/precio3" />
+
+                    <CheckBox
+                        android:id="@+id/precio4check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/precio4" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/producciontxt"
+                    android:layout_width="88dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/Produccion"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/prod25check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prod25" />
+
+                    <CheckBox
+                        android:id="@+id/prod50check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prod50" />
+
+                    <CheckBox
+                        android:id="@+id/prod75check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prod75" />
+
+                    <CheckBox
+                        android:id="@+id/prod100check"
+                        android:layout_width="87dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/prod100" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Marketing"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/Marketing"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/MarketingNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/iydtxt"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/iyd"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/iydnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/ampliacionplatatxt"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/ampliacionplanta"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/ampliacionplatanumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/devolverbanco1txt"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/devolver_banco1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/devolverbanco1number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/ic_launcher_background"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/devolverbanco2txt"
+                    android:layout_width="158dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/ic_launcher_background"
+                    android:text="@string/devolver_banco2"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+                <EditText
+                    android:id="@+id/devolverbanco2number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="0"
+                    android:inputType="numberDecimal" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/efectivotxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/ic_launcher_background"
+                android:text="TextView"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

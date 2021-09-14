@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Invertir en 2020</string>
+    <string name="Facil">Facíl</string>
+    <string name="Medio">Medio</string>
+    <string name="Dificil">Dificíl</string>
+    <string name="Periodico">Periodico</string>
+    <string name="Siguiente">Siguiente</string>
+    <string name="Resumen"><u>RESUMEN</u></string>
+    <string name="Marketing">Marketing</string>
+    <string name="iyd">Calidad</string>
+    <string name="ampliacionplanta">Maquinaria</string>
+    <string name="Produccion">Producción</string>
+    <string name="precio">Precio</string>
+    <string name="pedir_banco1">Prestamo banco 1</string>
+    <string name="pedir_banco2">Prestamo banco 2</string>
+    <string name="devolver_banco1">Devolver al banco 1</string>
+    <string name="devolver_banco2">Devolver al banco 2</string>
+    <string name="banco1"><b>Banco 1</b></string>
+    <string name="banco2"><b>Banco 2</b></string>
+    <string name="prod25">25%</string>
+    <string name="prod50">50%</string>
+    <string name="prod75">75%</string>
+    <string name="prod100">100%</string>
+    <string name="precio1">$19.99</string>
+    <string name="precio2">$29.99</string>
+    <string name="precio3">$39.99</string>
+    <string name="precio4">$49.99</string>
+    <string name="perdiste">Perdiste</string>
+    <string name="ComoJugar">Como Jugar</string>
+    <string name="Tutorial"><b>Como jugar</b>
+Debes poder lograr mantener una empresa sin quebrar a lo largo del año 2020. Para eso vas a tener que tomar decisiones de donde invertir tu dinero para así poder lograr la mayor ganancia posible.
+A la hora de tomar las decisiones te vas a encontrar con varias casillas que debes llenar.
+Comenzando con los <b>prestamos a ambos bancos:</b>
+Le puedes pedir plata prestada a cualquiera de los dos bancos, dichos bancos tendrán una taza de interés distinta que vas a tener que pagar.<br />
+Siguiendo con el <b>precio</b>:
+A menor precio esta tu producto mas personas van a estar interesadas en comprar tu producto, pero vas a sacar menos ganancias por cada producto producido, a mayor es el precio menos personas estarán interesadas pero sacaras mayor ganancia por producto.
+El nivel de <b>producción</b>:
+A menor producción menos productos vas a producir pero tendrás que hacerle menos mantenimiento a las maquinas. A mayor producción mas productos vas a producir pero tendrás que pagar un mantenimiento a las maquinarias que se verán reflejado en tu resumen.
+<b>Marketing</b>:
+A mayor marketing mas personas estarán interesadas en tu producto.
+<b>Calidad</b>:
+Mas inviertes en calidad tus productos van a ser mejores y las personas estarán mas interesadas en comprar
+<b>Maquinaria</b>:
+Invertir en maquinaria sirve para poder comprar mas maquinas y de esta manera aumentar la cantidad de productos que puedes producir.
+<b>Devolución bancos</b>:
+Debes devolverle a los bancos el dinero que le pediste prestado para así disminuir las tazas de interés.
+
+Pierdes cuando tu empresa quiebra, ya sea porque invertiste plata que no tenias o porque no llegas a afrontar los pagos.
+Ganas el juego si logras mantener tu empresa en pie hasta diciembre de 2020.</string>
+    <string name="Causaperdiste">Invertiste mas dinero del que tenias, o le pediste mas dinero a los bancos del que te podian dar, o simplemente tu empresa no pudo afrontar los gastos</string>
+    <string name="Volverajugar">Volver a jugar</string>
+    <string name="Salir">Salir</string>
+    <string name="Invertiren2020">INVERTIR EN 2020</string>
+</resources>
